@@ -1,0 +1,126 @@
+INSERT INTO newspaper VALUES
+('H KATHIMERINH','them_alaf@gmail.com','daily'),
+('TO BHMA','evang.mar@gmail.com','daily');
+
+INSERT INTO worker VALUES
+('them_alaf@gmail.com', 'them_alaf', '11111111', 'H KATHIMERINH', 'THEMISTOKLIS', 'ALAFOUZOS', '2017-06-18', 7000.00, 'P'),
+('konstantinosAra@gmail.com', 'k_Ara', '22222222', 'H KATHIMERINH','KONSTANTINOS','ARAVANIS','2015-8-1',1200.00, 'J'),
+('alexdem@gmail.com', 'alexdem', '33333333', 'TO BHMA','ALEXANDROS','DEMETROPOULOS','2016-10-10',1070.50, 'J'),
+('evang.mar@gmail.com', 'e_mar', '44444444', 'TO BHMA', 'EVANGELOS', 'MARINAKIS', '2001-02-05', 7200.00, 'P'),
+('michalisnik@gmail.com', 'mich_nik', '55555555', 'H KATHIMERINH','MICHALIS','NIKOLAOU','2000-8-03',2300.00, 'C'),
+('orestisge@gamil.com','orestis.g', '66666666', 'TO BHMA','ORESTIS','GEWRGIOU','2012-04-04',1500.75, 'J'),
+('foivIo@gmail.com', 'foivos_Io', '77777777', 'H KATHIMERINH','FOIVOS','IOANNOU','2017-05-06',1000.00, 'J'),
+('andreasHatz@gmail.com', 'andreashadj',  '88888888','TO BHMA','ANDREAS','HATZI','2014-07-08',1400.00, 'A'),
+('mariapapa@gmail.com', 'maria.pap', '99999999','H KATHIMERINH','MARIA','PAPAIOANNOU','2018-05-06',950.00, 'A'),
+('katerinaMix@gmail.com', 'kat_mix', '00000000', 'TO BHMA','KATERINA','MIXAHL','2009-08-07',1800.50, 'C'),
+('antrea_an@gmail.com', 'antrea.an', '12345678', 'TO BHMA', 'ANDREA', 'ANTONIADOU', '2018-08-21', 1200.00, 'J'),
+('maria.tara@gmail.com', 'm_tara', '14725836', 'H KATHIMERINH', 'MARIA', 'TARAMOUNTA', '2019-01-19', 1350.50, 'J'),
+('maria_hadji@gmail.com', 'hadji_m', '11223344', 'TO BHMA', 'MARIA', 'HADJIPETRI', '2018-12-18', 1600.50, 'J'),
+('elpida_papa@gmail.com', 'el_papa','15948326', 'H KATHIMERINH', 'ELPIDA', 'PAPADOPOULOU', '2015-02-26', 2000.00, 'J');
+
+INSERT INTO administrator VALUES
+('mariapapa@gmail.com','ZOGRAFOU','46','ATHINA','secretary'),
+('andreasHatz@gmail.com','PANORMOU','57','ATHINA','logistics');
+
+INSERT INTO telephones VALUES
+('mariapapa@gmail.com',6980807676),
+('andreasHatz@gmail.com',6947240716);
+
+INSERT INTO publisher VALUES
+('them_alaf@gmail.com'),
+('evang.mar@gmail.com');
+
+INSERT INTO chief_editor VALUES
+('michalisnik@gmail.com','them_alaf@gmail.com'),
+('katerinaMix@gmail.com','evang.mar@gmail.com');
+
+INSERT INTO journalist VALUES
+('foivIo@gmail.com', 24, 'SPOUDES DIMOSIOGRAFIAS STO PANTIO PANEPISTIMIO ATHINWN. GENIMENOS STIN ATHINA. PROIPIRESIA SE 2 EFIMERIDES'),
+('alexdem@gmail.com', 36, 'SPOUDES DIMOSIOGRAFIAS STO KAPODISTRIAKO PANEPISTIMIO ATHINWN. GENIMENOS STI LAMIA. PROIPIRESIA SE 3 EFIMERIDES'),
+('konstantinosAra@gmail.com', 12, 'SPOUDES DIMOSIOGRAFIAS STO ARISTOTELIO PANEPISTIMIO THESSALONIKIS. GENIMENOS STIN ATHINA. PROIPIRESIA SE 1 EFIMERIDA'),
+('michalisnik@gmail.com', 24, 'SPOUDES DIMOSIOGRAFIAS STO PANEPISTHMIO KYPROU. GENIMENOS STIN LEMESO. PROIPIRESIA SE 2 EFHMERIDES'),
+('orestisge@gamil.com', 48, 'SPOUDES DIMOSIOGRAFIAS STO ETHNIKO KAI KAPODISTRIAKO PANEPISTIMIO ATHINWN. GENIMENOS STIN PATRA. PROIPIRESIA SE 1 EFIMERIDA'),
+('katerinaMix@gmail.com', 60, 'SPOUDES DIMOSIOGRAFIAS STO ETHNIKO KAI KAPODISTRIAKO PANEPISTIMIO ATHINWN. GENIMENH STIN LARISSA. PROIPIRESIA SE 2 EFIMERIDES'),
+('antrea_an@gmail.com', 60, 'SPOUDES DIMOSIOGRAFIAS STO PANEPISTIMIO LEUKWSIAS. GENNIMENH STHN LEUKWSIA. PROIPIRESIA SE 2 EFIMERIDES'),
+('maria.tara@gmail.com', 12, 'SPOUDES DIMOSIOGRAFIAS STO I.E.K. OMHROS. GENNIMENH STHN LARNACA. PROIPIRESIA SE 1 EFIMERIDA'),
+('maria_hadji@gmail.com', 24, 'SPOUDES MME KAI EPIKOINWNIAS STO SWANSEA UNIVERSITY OF LONDON. GENNIMENH STON AGRO THS LEMESOU. PROIPIRESIA 1 EFIMERIDA'),
+('elpida_papa@gmail.com', 36, 'SPOUDES DIMOSIOGRAFIAS STO PANTIO PANEPISTIMIO ATHINWN. GENNIMENH STIN ATHINA. PROIPIRESIA SE 2 EFIMERIDES');
+
+INSERT INTO category VALUES
+(1,'ATHLITIKA','PAGKOSMIOS ATHLITISMOS',null,'michalisnik@gmail.com'),
+(2,'PODOSFERO','ARTHRA POU AFOROUN PROTATHLIMATA PRWTIS KATIGORIAS',1,'michalisnik@gmail.com'),
+(3,'KALATHOSFERA','ARTHRA POU AFOROUN PROTATHLIMATA PRWTIS KATIGORIAS',1,'michalisnik@gmail.com'),
+(4,'ANTISFERISI','ARTHRA POU AFOROIUN PAGKOSMIES DIORGANWSIS ANTISFERISIS',1,'michalisnik@gmail.com'),
+(5,'POLITIKA','POLITIKI STIN ELLADA',null,'katerinaMix@gmail.com'),
+(6,'VOULEUTIKA','ARTHRA POU AFOROUN TO ELLINIKO KOINOVOULIO',5,'katerinaMix@gmail.com'),
+(7,'EKLOGES','ARTHRA POU AFOROUN TIS EKLOGES STIN ELLADA',5,'katerinaMix@gmail.com'),
+(8,'EKSOTERIKI POLITIKH','ARTHRA POU AFOROUN TIN EKSWTERIKH POLITIKH TIS ELLADAS',5,'katerinaMix@gmail.com'),
+(9,'OIKONOMIA','PAGKOSMIA OIKONOMIA',null,'michalisnik@gmail.com'),
+(10,'OIKONOMIKH ASTATHIA','ARTHRA POU AFOROUN TIN PAGKOSMIA OIKONOMIKH ASTHATHIA',9,'michalisnik@gmail.com'),
+(11,'DANIA','ARTHRA POU AFOROUN TO PAGKOSMIO PROVLIMA TOU MEGALOU OGKOU DANIWN',9,'michalisnik@gmail.com'),
+(12,'OIKONOMIKI ANAPTIKSI','ARTHRA POU AFOROUN TIN PAGKOSMIA OIKONOMIKI ANAPTIKSI',9,'michalisnik@gmail.com');
+
+INSERT INTO article VALUE
+('C:/ATHLITIKA/PODOSFERO/paok.txt',1,'OI METAGRAFES TOU PAOK','OI POLIEKSODES METAGRAFES TOU PAOK OI OPOIES ENESCHISAN TIN EPITHESI KAI TIN AMINA STIN OMADA','accepted',1,1,2,2,'michalisnik@gmail.com','2020-01-29',null),
+('E:/POLITIKA/EKLOGES/diamaxes.txt',2,'OI EKXWRIES POLITIKES DIAMAXES','OI POLITIKES DIAMAXES METAKSI TIS KIVERNISIS KAI TIS ANTIPOLITEFSIS','accepted',1,1,3,7,'michalisnik@gmail.com', '2019-12-24', null),
+('C:/OIKONOMIA/OIKONOMIKH ASTATHIA/krisi.txt',null,'H OIKONOMIKH KRISI STIN ELLADA','H OIKONOMIKH KRISI POU ANTIMETOPIZEI H ELLADA KAI H VOITHIA APO THN EVROPAIKI ENWSI','to_be_revised',1,1,1,10,'katerinaMix@gmail.com', null, 'LEIPOUN OI PHGES'),
+('E:/OIKONOMIA/PAGKOSMIA OIKONOMIA/krisi_eurwpis.txt', null, 'H OIKONOMIKH KRISI STHN EURWPH', 'H OIKONOMIKH KRISI POU ANTIMETOPIZOUN DIAFORA KRATH-MELH THS EVROPAIKIS ENWSIS', 'rejected', 3, 4, 6, 10, 'katerinaMix@gmail.com', null, null),
+('C:/ATHLITIKA/ANTISFERISI/tsitsipas.txt', 3, 'TSITSIPAS: O PIO DIAKEKRIMENOS ELLHNAS TENISTAS', 'O TSITSIPAS EINAI O PRWTOS ELLHNAS KATOXOS TOU TITLOU GRAND SLAM', 'accepted', 2, 3, 4, 4, 'katerinaMix@gmail.com', null, null),
+('C:/POLITIKA/EKSOTERIKI POLITIKI/erdogan.txt', 4, 'APEILES TOU ERDOGAN KATA THS MESOGEIOU', 'O ERDOGAN SYNEXIZEI NA RIXNEI APEILH KAI NA EXEI PARANOMA PLOIA STHN MESOGEIO', 'accepted', 1, 1, 3, 8, 'katerinaMix@gmail.com', null, null);
+
+INSERT INTO submits VALUES
+('foivIo@gmail.com','C:/ATHLITIKA/PODOSFERO/paok.txt','2020-01-25'),
+('foivIo@gmail.com','E:/POLITIKA/EKLOGES/diamaxes.txt','2019-12-14'),
+('alexdem@gmail.com','C:/OIKONOMIA/OIKONOMIKH ASTATHIA/krisi.txt','2020-01-06'),
+('orestisge@gamil.com', 'E:/OIKONOMIA/PAGKOSMIA OIKONOMIA/krisi_eurwpis.txt', '2020-01-26'),
+('maria_hadji@gmail.com', 'C:/ATHLITIKA/ANTISFERISI/tsitsipas.txt', '2020-02-07'),
+('antrea_an@gmail.com' ,'C:/POLITIKA/EKSOTERIKI POLITIKI/erdogan.txt', '2020-02-09');
+
+
+INSERT INTO keywords VALUES
+('C:/ATHLITIKA/PODOSFERO/paok.txt','FOOTBALL'),
+('C:/ATHLITIKA/PODOSFERO/paok.txt','PAOK'),
+('C:/ATHLITIKA/PODOSFERO/paok.txt','METAGRAFES'),
+('E:/POLITIKA/EKLOGES/diamaxes.txt','KYVERNISI'),
+('E:/POLITIKA/EKLOGES/diamaxes.txt','EKLOGES'),
+('E:/POLITIKA/EKLOGES/diamaxes.txt','ESWTERIKH POLITIKI'),
+('C:/OIKONOMIA/OIKONOMIKH ASTATHIA/krisi.txt','ASTATHIA'),
+('C:/OIKONOMIA/OIKONOMIKH ASTATHIA/krisi.txt','DANIA'),
+('C:/OIKONOMIA/OIKONOMIKH ASTATHIA/krisi.txt','KRISI'),
+('E:/OIKONOMIA/PAGKOSMIA OIKONOMIA/krisi_eurwpis.txt', 'EVRWPH'),
+('E:/OIKONOMIA/PAGKOSMIA OIKONOMIA/krisi_eurwpis.txt', 'KRISI'),
+('C:/ATHLITIKA/ANTISFERISI/tsitsipas.txt', 'TENNIS'),
+('C:/ATHLITIKA/ANTISFERISI/tsitsipas.txt', 'TSITSIPAS'),
+('C:/POLITIKA/EKSOTERIKI POLITIKI/erdogan.txt', 'ERDOGAN'),
+('C:/POLITIKA/EKSOTERIKI POLITIKI/erdogan.txt', 'MESOGEIOS');
+
+INSERT INTO images VALUES
+('C:/ATHLITIKA/PODOSFERO/paok.txt','image1.jpeg'),
+('C:/ATHLITIKA/PODOSFERO/paok.txt','image2.jpeg'),
+('C:/ATHLITIKA/PODOSFERO/paok.txt','image3.jpeg'),
+('E:/POLITIKA/EKLOGES/diamaxes.txt','image1.jpeg'),
+('E:/POLITIKA/EKLOGES/diamaxes.txt','image2.jpeg'),
+('E:/POLITIKA/EKLOGES/diamaxes.txt','image3.jpeg'),
+('C:/OIKONOMIA/OIKONOMIKH ASTATHIA/krisi.txt','image1.jpeg'),
+('C:/OIKONOMIA/OIKONOMIKH ASTATHIA/krisi.txt','image2.jpeg'),
+('C:/OIKONOMIA/OIKONOMIKH ASTATHIA/krisi.txt','image3.jpeg'),
+('E:/OIKONOMIA/PAGKOSMIA OIKONOMIA/krisi_eurwpis.txt', 'image1.png'),
+('E:/OIKONOMIA/PAGKOSMIA OIKONOMIA/krisi_eurwpis.txt', 'image2.png'),
+('C:/ATHLITIKA/ANTISFERISI/tsitsipas.txt', 'image1.png'),
+('C:/ATHLITIKA/ANTISFERISI/tsitsipas.txt', 'image2.png'),
+('C:/POLITIKA/EKSOTERIKI POLITIKI/erdogan.txt', 'image1.jpeg'),
+('C:/POLITIKA/EKSOTERIKI POLITIKI/erdogan.txt', 'image2.jpeg');
+
+INSERT INTO authors VALUES
+('C:/ATHLITIKA/PODOSFERO/paok.txt','foivos_Io'),
+('C:/OIKONOMIA/OIKONOMIKH ASTATHIA/krisi.txt','alexdem'),
+('E:/POLITIKA/EKLOGES/diamaxes.txt','foivos_Io'),
+('E:/OIKONOMIA/PAGKOSMIA OIKONOMIA/krisi_eurwpis.txt', 'orestis.g'),
+('C:/ATHLITIKA/ANTISFERISI/tsitsipas.txt', 'hadji_m'),
+('C:/POLITIKA/EKSOTERIKI POLITIKI/erdogan.txt', 'antrea.an'); 
+
+INSERT INTO paper VALUES
+(null,'H KATHIMERINH','them_alaf@gmail.com',100,'2020-01-30',18,700000),
+(null,'H KATHIMERINH','them_alaf@gmail.com',200,'2019-12-27',20,800000),
+(null,'TO BHMA','evang.mar@gmail.com',150,'2020-01-23',17,750000),
+(null,'TO BHMA','evang.mar@gmail.com',170,'2020-02-01',19,780000);
