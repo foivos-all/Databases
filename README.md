@@ -23,6 +23,3 @@
             </ul>
     </ul>
 </p>
-
-
-# Databases
