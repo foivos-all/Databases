@@ -10,16 +10,16 @@
 # Structure
 <p align="justify">
     <ul>
-        <li>PART A:</li>
+        <li><u>PART A:</u></li>
             <ul>
-                <li>codes: Inside this folder, exist the code for the creation of the Database, in the SQL programming Language. The operations are, the creation of the tables, the insertion of data inside the tables, the stored procedures and the triggers that were necessary for the smooth deployment of the database.</li>
-                <li>ER: This pdf represents the Entity Relational Diagramm of the Database.</li>
-                <li>Relational Model: This pdf represents the Relational Model of the Database.</li>
+                <li><em>codes:</em> Inside this folder, exist the code for the creation of the Database, in the SQL programming Language. The operations are, the creation of the tables, the insertion of data inside the tables, the stored procedures and the triggers that were necessary for the smooth deployment of the database.</li>
+                <li><em>ER:</em> This pdf represents the Entity Relational Diagramm of the Database.</li>
+                <li><em>Relational Model:</em> This pdf represents the Relational Model of the Database.</li>
             </ul>
-        <li>PART B:</li>
+        <li><u>PART B:</u></li>
             <ul>
-                <li>project_db: Inside this folder, exist the code for the creation of the GUIs of the Database, and the necessary connections, in the Java programming Language and using JDBC technology. </li>
-                <li>Report: A written report explaining everything that concerns our system, in Greek.</li>
+                <li><em>project_db:</em> Inside this folder, exist the code for the creation of the GUIs of the Database, and the necessary connections, in the Java programming Language and using JDBC technology. </li>
+                <li><em>Report:</em> A written report explaining everything that concerns our system, in Greek.</li>
             </ul>
     </ul>
 </p>
